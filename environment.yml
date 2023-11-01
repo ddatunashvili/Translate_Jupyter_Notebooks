@@ -1,0 +1,14 @@
+name: jtranslate
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - fire
+  - pip
+  - pip:
+    - googletrans==3.1.0a0
